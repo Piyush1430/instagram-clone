@@ -15,7 +15,12 @@ A completely Responsive Instagram App- Works on Android, iOS & Web!
 - Sign Out
 
 # App ScreenShots
-1.Authtentication page ![](Screenshots/Screenshot_2023-12-26-02-03-24.png)
+1.Authtentication page
+{
+centre
+![](Screenshots/Screenshot_2023-12-26-02-03-24.png)
+}
+
 
 
 
