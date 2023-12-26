@@ -92,7 +92,7 @@ class _SignupScreenState extends State<SignupScreen> {
           padding: MediaQuery.of(context).size.width > webScreenSize
               ? EdgeInsets.symmetric(
                   horizontal: MediaQuery.of(context).size.width / 3)
-              :  const EdgeInsets.symmetric(horizontal: 32),
+              : const EdgeInsets.symmetric(horizontal: 32),
           width: double.infinity,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -103,7 +103,8 @@ class _SignupScreenState extends State<SignupScreen> {
               ),
               SvgPicture.asset(
                 'assets/ic_instagram.svg',
-                color: primaryColor,
+                colorFilter:
+                    const ColorFilter.mode(primaryColor, BlendMode.srcIn),
                 height: 50,
               ),
               const SizedBox(
@@ -119,8 +120,8 @@ class _SignupScreenState extends State<SignupScreen> {
                         )
                       : const CircleAvatar(
                           radius: 64,
-                          backgroundImage: AssetImage(
-                              'assets/profile_default.png'),
+                          backgroundImage:
+                              AssetImage('assets/profile_default.png'),
                           backgroundColor: Colors.red,
                         ),
                   Positioned(
@@ -128,7 +129,10 @@ class _SignupScreenState extends State<SignupScreen> {
                     left: 80,
                     child: IconButton(
                       onPressed: selectImage,
-                      icon: const Icon(Icons.add_a_photo ,color: blueColor,),
+                      icon: const Icon(
+                        Icons.add_a_photo,
+                        color: blueColor,
+                      ),
                     ),
                   )
                 ],
