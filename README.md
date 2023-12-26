@@ -20,7 +20,7 @@ A completely Responsive Instagram App- Works on Android, iOS & Web!
 </p>
 
 <p align="center">
-  <img  height="600" src="https://picsum.photos/460/300">
+  <img  height="600" src="Screenshots/Screenshot_2023-12-26-02-03-51.png">
 </p>
 
 <p align="center">
